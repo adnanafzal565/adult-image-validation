@@ -6,16 +6,16 @@ This is a simple PHP class that allows you to check if the image contains adult 
 
 Support you have a simple HTML file that allows user to upload an image:
 
-```
+```html
 <form method="POST" action="upload.php" enctype="multipart/form-data">
 	<input type="file" name="file" />
 	<input type="submit" />
 </form>
-```
+```html
 
 Then in your "upload.php", you can use this class in the following manner:
 
-```
+```php
 <?php
 
 require_once "class.ImageFilter.php";
@@ -33,4 +33,4 @@ if ($score > 60)
 {
 	echo "<p>Image contains adult content.</p>";
 }
-```
+```php
