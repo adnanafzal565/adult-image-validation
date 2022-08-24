@@ -11,7 +11,7 @@ Support you have a simple HTML file that allows user to upload an image:
 	<input type="file" name="file" />
 	<input type="submit" />
 </form>
-```html
+```
 
 Then in your "upload.php", you can use this class in the following manner:
 
@@ -33,4 +33,4 @@ if ($score > 60)
 {
 	echo "<p>Image contains adult content.</p>";
 }
-```php
+```
