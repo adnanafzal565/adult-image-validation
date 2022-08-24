@@ -34,3 +34,13 @@ if ($score > 60)
 	echo "<p>Image contains adult content.</p>";
 }
 ```
+
+1. First, we are simply including the class in our PHP file.
+2. Then we save the image file as "image.png", you can set any name of your choice.
+3. Then we are creating an instance of ```ImageFilter``` class.
+4. Then we are getting the score of newly created image file. A score of 61 and above is considered to be contain nudity content.
+5. Then we are removing the image file we saved.
+6. And display the score to the user, you can remove this line if you do not want to show the scores to the user.
+7. Finally, we are putting a condition that says "if score is greater than 60, then display an error message."
+
+You can try with other images too and feel free to give feedback for improvements.
